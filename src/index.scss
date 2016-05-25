@@ -1,19 +1,25 @@
+@import "clearfix";
+
 .none {
-    display: none !important;
+  display: none;
 }
 
 .visible {
-    visibility: visible !important;
+  visibility: visible;
 }
 
 .hidden {
-    visibility: hidden !important;
+  visibility: hidden;
 }
 
 .pull-left {
-    float: left !important;
+  float: left;
 }
 
 .pull-right {
-    float: right !important;
+  float: right;
+}
+
+.clearix {
+  @include clearfix();
 }

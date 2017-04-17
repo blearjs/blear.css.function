@@ -7,16 +7,15 @@
 .hidden {
   visibility: hidden; }
 
-.pull-left {
+.pull_left {
   float: left; }
 
-.pull-right {
+.pull_right {
   float: right; }
 
-.clearix:before,
-.clearix:after {
+.clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
 
-.clearix:after {
+.clearfix:after {
   clear: both; }

@@ -12,12 +12,14 @@
   visibility: hidden;
 }
 
-.pull-left {
-  float: left;
-}
+.pull {
+  &_left {
+    float: left;
+  }
 
-.pull-right {
-  float: right;
+  &_right {
+    float: right;
+  }
 }
 
 .clearfix {
